@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "922499643428",
+    "firebase_url": "https://food-ordering-applicatio-9cb95.firebaseio.com",
+    "project_id": "food-ordering-applicatio-9cb95",
+    "storage_bucket": "food-ordering-applicatio-9cb95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922499643428:android:edbd5f529de8042c1080b1",
+        "android_client_info": {
+          "package_name": "com.example.foodmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922499643428-56t5vq6rcuo1f485g34g9b7vdhj5cb1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodmart",
+            "certificate_hash": "592c06724f4d33da754a62c9fa27905ac745ca76"
+          }
+        },
+        {
+          "client_id": "922499643428-5j3s473c6c2ei4jctbd3uf15k5pe8dbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHBq91xrGV1ThY-SM_8YNmJovsLd0HjBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922499643428-5j3s473c6c2ei4jctbd3uf15k5pe8dbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922499643428:android:0042c5d14ad1ced81080b1",
+        "android_client_info": {
+          "package_name": "com.example.hp.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922499643428-cvpffa3mvh43peg9ej644as44c1fn019.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.myapplication",
+            "certificate_hash": "592c06724f4d33da754a62c9fa27905ac745ca76"
+          }
+        },
+        {
+          "client_id": "922499643428-5j3s473c6c2ei4jctbd3uf15k5pe8dbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHBq91xrGV1ThY-SM_8YNmJovsLd0HjBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922499643428-5j3s473c6c2ei4jctbd3uf15k5pe8dbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
