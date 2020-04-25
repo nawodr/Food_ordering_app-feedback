@@ -1,9 +1,9 @@
 package com.example.hp.myapplication;
 
+import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -42,7 +42,7 @@ public class FoodDetail extends AppCompatActivity {
         //Firebase
 
         database = FirebaseDatabase.getInstance();
-        foods = database.getReference("Foods");
+        foods = database.getReference("Food");
 
         //init view
         numberButton = (ElegantNumberButton)findViewById(R.id.number_button);

@@ -1,8 +1,8 @@
 package com.example.hp.myapplication;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -34,11 +34,12 @@ public class FoodList extends AppCompatActivity {
         //Firebase
 
         database = FirebaseDatabase.getInstance();
-        foodList = database.getReference("Foods");
+        foodList = database.getReference("Food");
         recyclerView = (RecyclerView)findViewById(R.id.recycler_food);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
+
 
         //get intent here
         if(getIntent()!=null)
@@ -51,7 +52,7 @@ public class FoodList extends AppCompatActivity {
 
     private void loadListFood(String categoryId) {
         adapter = new FirebaseRecyclerAdapter<Food, FoodViewHolder>(Food.class,R.layout.food_item,
-                FoodViewHolder.class,foodList.orderByChild("MenuId").equalTo(categoryId))
+                FoodViewHolder.class, foodList.orderByChild("menuId").equalTo(categoryId))
             //is like select query
         {
             @Override

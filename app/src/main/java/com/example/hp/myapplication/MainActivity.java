@@ -1,14 +1,11 @@
 package com.example.hp.myapplication;
 
 import android.content.Intent;
-import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         slogan = (TextView)findViewById(R.id.slogan);
 
-        Typeface face = Typeface.createFromAsset(getAssets(),"Fonts/NABILA.TTF");
-        slogan.setTypeface(face);
+        //Typeface face = Typeface.createFromAsset(getAssets(),"Fonts/NABILA.TTF");
+        //slogan.setTypeface(face);
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,4 +40,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
