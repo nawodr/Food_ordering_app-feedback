@@ -1,4 +1,4 @@
-#Sat Apr 25 14:49:50 IST 2020
-base.0=C\:\\Users\\sasan\\StudioProjects\\NawodNew\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Apr 30 01:48:51 IST 2020
+base.0=C\:\\Users\\Nawod\\Downloads\\food mart\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

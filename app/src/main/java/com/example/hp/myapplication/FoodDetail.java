@@ -1,10 +1,12 @@
 package com.example.hp.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +29,7 @@ public class FoodDetail extends AppCompatActivity {
     CollapsingToolbarLayout collapsingToolbarLayout;
     FloatingActionButton btncart;
     ElegantNumberButton numberButton;
+    Button btn_Feedback,btn_ViewFeedbackList;
 
     String foodId="";
 
@@ -45,6 +48,8 @@ public class FoodDetail extends AppCompatActivity {
         foods = database.getReference("Food");
 
         //init view
+        btn_Feedback = (Button)findViewById(R.id.btn_Feedback);
+        btn_ViewFeedbackList = (Button)findViewById(R.id.btn_ViewFeedbackList);
         numberButton = (ElegantNumberButton)findViewById(R.id.number_button);
         btncart = (FloatingActionButton)findViewById(R.id.btncart);
 
@@ -78,6 +83,22 @@ public class FoodDetail extends AppCompatActivity {
         {
             getDetailFood(foodId);
         }
+
+        //go to addfeedback
+
+        btn_Feedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAddFeedback();
+            }
+        });
+
+        btn_ViewFeedbackList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openFeedbackList();
+            }
+        });
     }
 
     private void getDetailFood(String foodId) {
@@ -98,5 +119,15 @@ public class FoodDetail extends AppCompatActivity {
 
             }
         });
+    }
+
+    private  void openAddFeedback(){
+        Intent intentfb = new Intent(this,addFeedback.class);
+        intentfb.putExtra("foodId", foodId);
+        startActivity(intentfb);
+    }
+    private void openFeedbackList(){
+        Intent intentFbList = new Intent(this,FeedbackList.class);
+        startActivity(intentFbList);
     }
 }

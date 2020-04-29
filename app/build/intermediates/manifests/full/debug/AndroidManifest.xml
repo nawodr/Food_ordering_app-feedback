@@ -30,6 +30,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.hp.myapplication.FeedbackList" >
+        </activity>
+        <activity android:name="com.example.hp.myapplication.updateFeedback" />
+        <activity android:name="com.example.hp.myapplication.addFeedback" />
         <activity android:name="com.example.hp.myapplication.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
