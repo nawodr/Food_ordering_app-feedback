@@ -31,13 +31,13 @@ public final class R {
         public static final int abc_action_bar_embed_tabs = 0x7f050000;
     }
     public static final class color {
-        public static final int notification_action_color_filter = 0x7f06005a;
-        public static final int notification_icon_bg_color = 0x7f06005b;
-        public static final int notification_material_background_media_default_color = 0x7f06005c;
-        public static final int primary_text_default_material_dark = 0x7f060063;
-        public static final int ripple_material_light = 0x7f060068;
-        public static final int secondary_text_default_material_dark = 0x7f060069;
-        public static final int secondary_text_default_material_light = 0x7f06006a;
+        public static final int notification_action_color_filter = 0x7f06005b;
+        public static final int notification_icon_bg_color = 0x7f06005c;
+        public static final int notification_material_background_media_default_color = 0x7f06005d;
+        public static final int primary_text_default_material_dark = 0x7f060064;
+        public static final int ripple_material_light = 0x7f060069;
+        public static final int secondary_text_default_material_dark = 0x7f06006a;
+        public static final int secondary_text_default_material_light = 0x7f06006b;
     }
     public static final class dimen {
         public static final int compat_button_inset_horizontal_material = 0x7f070052;
@@ -111,9 +111,9 @@ public final class R {
         public static final int tag_transition_group = 0x7f0900d6;
         public static final int text = 0x7f0900d7;
         public static final int text2 = 0x7f0900d8;
-        public static final int time = 0x7f0900e0;
-        public static final int title = 0x7f0900e1;
-        public static final int top = 0x7f0900e5;
+        public static final int time = 0x7f0900e1;
+        public static final int title = 0x7f0900e2;
+        public static final int top = 0x7f0900e6;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f0a0004;

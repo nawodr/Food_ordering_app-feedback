@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nawod\\Downloads\\food mart\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "C:\\Users\\Nawod\\Downloads\\Food_ordering_app-feedback\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Nawod\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\1d65d93c1bc92b5f4606b9106d94c478\\res\\values-mk\\values.xml",

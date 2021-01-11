@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Tue Apr 28 15:47:32 IST 2020
-1.base=C\:\\Users\\Nawod\\Downloads\\food mart\\app\\build\\intermediates\\assets\\debug
-2.path=classes.dex
+#Mon Jan 11 20:49:49 IST 2021
+1.base=C\:\\Users\\Nawod\\Downloads\\Food_ordering_app-feedback\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.path=databases/Tomato.db
 0.baseType=DIRECTORY
-2.base=C\:\\Users\\Nawod\\Downloads\\food mart\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-2.set=DEX
+2.base=C\:\\Users\\Nawod\\Downloads\\Food_ordering_app-feedback\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
 1.baseType=DIRECTORY
 count=3
-1.set=ASSET
+1.set=DEX
 0.path=Fonts/NABILA.TTF
 0.set=ASSET
-0.base=C\:\\Users\\Nawod\\Downloads\\food mart\\app\\build\\intermediates\\assets\\debug
+0.base=C\:\\Users\\Nawod\\Downloads\\Food_ordering_app-feedback\\app\\build\\intermediates\\assets\\debug
 2.baseType=DIRECTORY
-1.path=databases/Tomato.db
+1.path=classes.dex
